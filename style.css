@@ -211,3 +211,44 @@ ul{
  background: transparent;
  border-bottom: 10px solid red;
 }
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background: #17161a;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li{
+    margin: 0 20px;
+    position: relative;
+}
+.menu ul li a{
+ color: rgba(255,255,255,0.5);
+ font-size: 18px;
+}
+.menu ul li a:hover{
+    color: white;
+ }
+ .menu ul li:nth-child(1) a{
+    color: white;
+}
+.menu ul li::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 4px solid transparent;
+}
+.menu ul li:nth-child(1)::before{
+    border-bottom: 4px solid red;
+}
+.menu ul li:hover::before{
+    border-bottom: 4px solid red;
+}
