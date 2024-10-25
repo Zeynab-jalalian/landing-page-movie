@@ -47,5 +47,5 @@ ul{
     text-decoration: underline;
 }
 .nav-options a span:hover{
-    transform: scale(1.2);
+    color: white;
 }
