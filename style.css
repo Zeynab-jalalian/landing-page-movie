@@ -169,10 +169,27 @@ ul{
     width: calc(20% - 20px);
     height: 150px;
     margin: 0 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 10px solid transparent;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.3s;
 }
 .header-bottom .card img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+    position: relative;
+}
+.header-bottom .card h3{
+    color: white;
+    position: absolute;
+    margin-bottom: 10px;
+}
+.header-bottom .card:hover{
+    opacity: 1;
 }
