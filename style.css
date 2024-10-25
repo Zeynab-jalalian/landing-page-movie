@@ -271,4 +271,33 @@ ul{
     .menu ul li a {
         font-size: 15px;
     }
+    .header-bottom .card{
+        height: 130px;
+     }
+}
+@media (max-width:1000px){
+    .header-main{
+        margin: 0 10px;
+    }
+ .header-bottom .card{
+    height: 100px;
+ }
+ .h-m-left .watch a{
+    padding: 10px;
+ }
+ .h-m-left .title h1{
+    font-size: 35px;
+ }
+ .h-m-left .title h4{
+    font-size: 20px;
+ }
+ .h-m-left .title h5{
+    font-size: 10px;
+ }
+ .header-main .h-m-left .watch p {
+    font-size: 14px;
+}
+.header-bottom .card h3{
+    font-size: 18px;
+}
 }
