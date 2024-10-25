@@ -175,8 +175,7 @@ ul{
     flex-direction: column;
     border-bottom: 10px solid transparent;
     cursor: pointer;
-    opacity: 0.6;
-    transition: 0.3s;
+    position: relative;
 }
 .header-bottom .card img{
     width: 100%;
@@ -190,6 +189,15 @@ ul{
     position: absolute;
     margin-bottom: 10px;
 }
-.header-bottom .card:hover{
-    opacity: 1;
+.header-bottom .card::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
+.card:hover::after{
+    background: transparent;
 }
