@@ -105,3 +105,55 @@ ul{
     align-items: start;
     flex-direction: column;
 }
+.h-m-left .title h1{
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.h-m-left .title h4{
+ color: rgba(255,255,255,0.6);
+ font-size: 25px;
+ margin-bottom: 10px;
+}
+.h-m-left .title h5{
+    color: rgba(255,255,255,0.6);
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.h-m-left .point{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.point p{
+    margin: 0 10px;
+    font-size: 23px;
+}
+.point p span{
+    color: rgba(255,255,255,0.6);
+    font-size: 16px;
+}
+.point i{
+    color: yellow;
+    font-size: 17px;
+}
+.h-m-left .watch p{
+    color: rgba(255,255,255,0.7);
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+.h-m-left .watch a{
+    color: white;
+    background: red;
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+.h-m-left .watch a:hover{
+  background: white;
+  color: red;
+  font-weight: 900;
+}
