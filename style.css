@@ -102,6 +102,9 @@ ul{
     align-items: start;
     flex-direction: column;
 }
+.h-m-left .title{
+    width: 100%;
+}
 .h-m-left .title h1{
     letter-spacing: 2px;
     font-size: 40px;
@@ -256,4 +259,16 @@ ul{
 }
 .menu ul li:hover::before{
     border-bottom: 4px solid red;
+}
+/* Responsive */
+@media (max-width:1200px){
+    .header-main .h-m-left .watch p{
+    line-height: 23px;
+    }
+    .header-main .h-m-right img{
+        width: 500px;
+    }
+    .menu ul li a {
+        font-size: 15px;
+    }
 }
