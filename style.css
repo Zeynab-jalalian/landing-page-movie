@@ -49,3 +49,32 @@ ul{
 .nav-options a span:hover{
     color: white;
 }
+.nav-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-btns a{
+    color: white;
+    margin: 0 10px;
+    font-size: 15px;
+    background: transparent;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.nav-btns a:nth-child(1){
+    background: #696969;
+}
+.nav-btns a:nth-child(2):hover{
+    background: #696969;
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* logo just for now */
+.nav-logo h1{
+    color: red;
+    font-size: 35px;
+}
