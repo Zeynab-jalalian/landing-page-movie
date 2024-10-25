@@ -300,6 +300,9 @@ ul{
 .header-bottom .card h3{
     font-size: 18px;
 }
+.header-bottom{
+    height: 40%;
+}
 }
 @media (max-width:850px){
  .header{
