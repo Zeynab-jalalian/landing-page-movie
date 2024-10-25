@@ -76,7 +76,7 @@ ul{
 }
 .header-main{
     width: 90%;
-    height: 80%;
+    height: 60%;
     margin:20px auto;
     display: flex;
     justify-content: center;
@@ -90,9 +90,6 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.header-bottom{
-    width: 100%;
 }
 .h-m-right img{
    border-radius: 5px;
@@ -156,4 +153,11 @@ ul{
   background: white;
   color: red;
   font-weight: 900;
+}
+
+
+.header-bottom{
+    width: 90%;
+    height: 28%;
+    margin: auto;
 }
