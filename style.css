@@ -209,7 +209,12 @@ ul{
 }
 .card:nth-child(1)::after{
  background: transparent;
- border-bottom: 10px solid red;
+}
+.card:nth-child(1){
+    border-bottom: 10px solid red;
+}
+.card:nth-child(1) h3{
+    transform: translateY(-30px);
 }
 .menu{
     display: flex;
