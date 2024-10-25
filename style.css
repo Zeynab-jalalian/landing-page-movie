@@ -85,8 +85,15 @@ ul{
 .header-main div{
     width: 50%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .header-bottom{
     width: 100%;
     height: 100%;
+}
+.h-m-right img{
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
