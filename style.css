@@ -181,7 +181,6 @@ ul{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px;
     position: relative;
 }
 .header-bottom .card h3{
@@ -197,8 +196,11 @@ ul{
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,0.7);
-    border-radius: 10px;
 }
 .card:hover::after{
     background: transparent;
+}
+.card:nth-child(1)::after{
+ background: transparent;
+ border-bottom: 10px solid red;
 }
