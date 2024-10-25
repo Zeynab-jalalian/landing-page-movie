@@ -28,6 +28,7 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 .nav-options{
  display: flex;
@@ -72,9 +73,4 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-/* logo just for now */
-.nav-logo h1{
-    color: red;
-    font-size: 35px;
 }
