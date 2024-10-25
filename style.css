@@ -301,3 +301,50 @@ ul{
     font-size: 18px;
 }
 }
+@media (max-width:850px){
+ .header{
+    padding: 5px 10px;
+ }
+ .header-main .h-m-right img {
+    width: 400px;
+}
+.nav-btns a {
+    padding: 10px 12px;
+}
+.header-bottom .card h3 {
+    font-size: 15px;
+}
+.header-bottom .card {
+    height: 90px;
+}
+.card:nth-child(1) {
+    border-bottom: 5px solid red;
+}
+.header-bottom .card{
+    border-bottom: 5px solid transparent;
+}
+.header-bottom .card:hover{
+    border-bottom: 5px solid red;
+}
+.menu ul li{
+    margin: 0 15px;
+}
+.h-m-left .title h1 {
+    font-size: 28px;
+}
+.h-m-left .title h4 {
+    font-size: 18px;
+}
+.h-m-left .title h5 {
+    font-size: 9px;
+}
+.point p {
+    font-size: 18px;
+}
+.point p span {
+    font-size: 12px;
+}
+.header-main .h-m-left .watch p {
+    width: 180px;
+}
+}
