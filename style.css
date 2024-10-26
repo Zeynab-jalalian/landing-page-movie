@@ -373,9 +373,87 @@ ul{
 }
 @media (max-width:650px){
     .header-main .h-m-right img {
-        width: 370px;
+        width: 315px;
     }
     .header-bottom .card h3 {
         font-size: 12px;
+    }
+    .h-m-left .title h1 {
+        font-size: 25px;
+    }
+    .h-m-left .title h4 {
+        font-size: 16px;
+    }
+    .h-m-left .title h5 {
+        font-size: 8px;
+    }
+    .header-main .h-m-left .watch p {
+        width: 200px;
+        font-size: 13px;
+    }
+    .h-m-left .watch a {
+        padding: 8px;
+        font-size: 15px;
+    }
+
+}
+@media (max-width:600px){
+ .nav-logo img{
+    width: 50px;
+ }
+ .header-main .h-m-right img {
+    width: 290px;
+}
+.nav-btns a {
+    padding: 6px 12px;
+}
+.nav-options a span {
+    font-size: 15px;
+}
+}
+@media (max-width:550px){
+    .header-main{
+        flex-wrap:wrap;
+    }
+    .header-main .h-m-left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        order: 2;
+        margin-bottom: 15px;
+    }
+    .header-main .h-m-right{
+        width: 100%;
+        order: 1;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .header-bottom{
+        margin-top: 10px;
+    }
+    .h-m-left .point{
+        justify-content: center;
+    }
+    .header-main .watch{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+    }
+    .h-m-left .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .nav-options a {
+        color: white;
+        margin: 0 10px;
+        font-size: 15px;
+    }
+    .menu ul li a {
+        font-size: 10px;
     }
 }
