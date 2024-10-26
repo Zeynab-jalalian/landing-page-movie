@@ -421,6 +421,7 @@ ul{
 }
 .menu ul li a {
     font-size: 16px;
+    padding: 5px;
 }
 }
 @media (max-width:550px){
