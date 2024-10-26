@@ -419,6 +419,9 @@ ul{
 .menu ul li{
     margin: 20px;
 }
+.menu ul li a {
+    font-size: 16px;
+}
 }
 @media (max-width:550px){
     .header-main{
