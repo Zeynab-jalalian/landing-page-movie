@@ -410,6 +410,15 @@ ul{
 .nav-options a span {
     font-size: 15px;
 }
+.menu{
+    height: 150px;
+}
+.menu ul{
+    flex-wrap: wrap;
+}
+.menu ul li{
+    margin: 20px;
+}
 }
 @media (max-width:550px){
     .header-main{
@@ -455,5 +464,45 @@ ul{
     }
     .menu ul li a {
         font-size: 10px;
+    }
+}
+@media (max-width:520px){
+    .header-bottom .card h3 {
+        font-size: 10px;
+    }
+    .nav-options a {
+        font-size: 12px;
+    }
+    .nav-btns a{
+        font-size: 12px;
+    }
+}
+@media (max-width:450px){
+    .nav-options{
+        display: none;
+    }
+    .header-bottom .card {
+        height: 70px;
+    }
+    .header-bottom .card h3 {
+        font-size: 15px;
+    }
+    .header{
+        height: 1500px;
+    }
+    .header-bottom .card {
+        height: 100px;
+        width: 100%;
+    }
+    .header-bottom {
+        margin-top: -100px;
+    }
+    .header-main {
+        flex-direction: column;
+        justify-content: start;
+        height: 50%;
+    }
+    .header-bottom .card {
+        height: 150px;
     }
 }
