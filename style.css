@@ -351,3 +351,11 @@ ul{
     width: 180px;
 }
 }
+@media (max-width:750px){
+    .header-bottom{
+        width: 100%;
+    }
+    .menu ul li{
+        margin: 0 8px;
+    }
+}
