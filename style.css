@@ -320,7 +320,7 @@ ul{
 .header-bottom .card {
     height: 90px;
 }
-.card:nth-child(1) {
+.header-bottom .card:nth-child(1) {
     border-bottom: 5px solid red;
 }
 .header-bottom .card{
@@ -356,6 +356,26 @@ ul{
         width: 100%;
     }
     .menu ul li{
-        margin: 0 8px;
+        margin: 0 10px;
+    }
+    .menu ul li::before{
+        border-bottom: 3px solid transparent;
+    }
+    .menu ul li::before:hover{
+        border-bottom: 3px solid red;
+    }
+    .menu ul li:nth-child(1)::before {
+        border-bottom: 4px solid red;
+    }
+    .menu ul li a {
+        font-size: 12px;
+    }
+}
+@media (max-width:650px){
+    .header-main .h-m-right img {
+        width: 370px;
+    }
+    .header-bottom .card h3 {
+        font-size: 12px;
     }
 }
