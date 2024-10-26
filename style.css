@@ -267,21 +267,31 @@ ul{
     width: 100%;
     height: 100%;
     padding: 30px;
-    color: white;
 }
-.pop .box{
-    width: 80%;
-    margin: auto;
-}
-.pop .box ul{
+.pop .series{
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-.pop .box ul li{
-    width: calc(20% -10px);
-    height: 100%;
+.pop .series .name{
+    margin:auto 10px;
+}
+.pop .series .name p{
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+.pop .series .name span{
+    color: rgba(255,255,255,0.6);
+    font-size: 14px;
+}
+.pop .series .name img{
+    cursor: pointer;
+    object-fit: cover;
 }
 /* Responsive */
 @media (max-width:1200px){
