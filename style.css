@@ -260,6 +260,29 @@ ul{
 .menu ul li:hover::before{
     border-bottom: 4px solid red;
 }
+
+
+.pop{
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    color: white;
+}
+.pop .box{
+    width: 80%;
+    margin: auto;
+}
+.pop .box ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pop .box ul li{
+    width: calc(20% -10px);
+    height: 100%;
+}
 /* Responsive */
 @media (max-width:1200px){
     .header-main .h-m-left .watch p{
