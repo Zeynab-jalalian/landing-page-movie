@@ -423,6 +423,7 @@ ul{
 @media (max-width:550px){
     .header-main{
         flex-wrap:wrap;
+        height: 40%;
     }
     .header-main .h-m-left{
         width: 100%;
@@ -465,19 +466,7 @@ ul{
     .menu ul li a {
         font-size: 10px;
     }
-}
-@media (max-width:520px){
-    .header-bottom .card h3 {
-        font-size: 10px;
-    }
-    .nav-options a {
-        font-size: 12px;
-    }
-    .nav-btns a{
-        font-size: 12px;
-    }
-}
-@media (max-width:450px){
+
     .nav-options{
         display: none;
     }
@@ -485,10 +474,10 @@ ul{
         height: 70px;
     }
     .header-bottom .card h3 {
-        font-size: 15px;
+        font-size: 20px;
     }
     .header{
-        height: 1500px;
+        height: 1600px;
     }
     .header-bottom .card {
         height: 100px;
@@ -504,5 +493,17 @@ ul{
     }
     .header-bottom .card {
         height: 150px;
+        margin: 10px 0;
+    }
+    .h-m-right{
+        margin-top: 100px;
+    }
+}
+@media (max-width:520px){
+    .nav-options a {
+        font-size: 12px;
+    }
+    .nav-btns a{
+        font-size: 12px;
     }
 }
