@@ -474,7 +474,7 @@ ul{
         height: 70px;
     }
     .header-bottom .card h3 {
-        font-size: 20px;
+        font-size: 25px;
     }
     .header{
         height: 1600px;
@@ -482,6 +482,7 @@ ul{
     .header-bottom .card {
         height: 100px;
         width: 100%;
+        margin: 15px 0;
     }
     .header-bottom {
         margin-top: -175px;
