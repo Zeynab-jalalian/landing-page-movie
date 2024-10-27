@@ -277,7 +277,7 @@ ul{
     flex-wrap: wrap;
 }
 .pop .series .name{
-    margin:auto 10px;
+    margin:20px 10px;
 }
 .pop .series .name p{
     margin-top: 10px;
@@ -295,6 +295,15 @@ ul{
 }
 .pop .series .name img:hover{
     transform: scale(1.1);
+}
+.pop h3{
+    color: #fff;
+}
+.series span{
+    margin: 0 30px;
+    color: #797070;
+    font-size: 55px;
+    cursor: pointer;
 }
 /* Responsive */
 @media (max-width:1200px){
