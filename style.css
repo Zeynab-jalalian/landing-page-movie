@@ -596,7 +596,7 @@ ul{
         font-size: 25px;
     }
     .header{
-        height: 1600px;
+        height: 100%;
     }
     .header-bottom .card {
         height: 100px;
