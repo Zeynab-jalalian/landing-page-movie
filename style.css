@@ -605,6 +605,7 @@ ul{
     }
     .header-bottom {
         margin-top: -175px;
+        margin-top: -10px;
     }
     .header-main {
         flex-direction: column;
