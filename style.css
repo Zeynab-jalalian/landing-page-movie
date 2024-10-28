@@ -607,10 +607,6 @@ ul{
         width: 100%;
         margin: 15px 0;
     }
-    .header-bottom {
-        margin-top: -175px;
-        margin-top: -10px;
-    }
     .header-main {
         flex-direction: column;
         justify-content: start;
