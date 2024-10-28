@@ -7,6 +7,7 @@
 body {
     width: 100%;
     height: 100vh;
+    background: #262626;
 }
 a{
     text-decoration: none;
@@ -304,6 +305,26 @@ ul{
     color: #797070;
     font-size: 55px;
     cursor: pointer;
+}
+
+
+
+
+
+
+.boxes{
+    background: #262626;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    width: calc(20% - 10px);
+    margin: 30px auto;
 }
 /* Responsive */
 @media (max-width:1200px){
