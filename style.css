@@ -326,7 +326,7 @@ ul{
 .box{
     width: calc(20% - 10px);
     height: 100%;
-    margin: 30px auto;
+    margin: 20px;
 }
 .box img{
     object-fit: cover;
