@@ -321,10 +321,27 @@ ul{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 50px;
 }
 .box{
     width: calc(20% - 10px);
+    height: 100%;
     margin: 30px auto;
+}
+.box img{
+    object-fit: cover;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.box p{
+    color: white;
+    margin-bottom: 5px;
+}
+.box span{
+    color: rgba(255,255,255,0.7);
+}
+.box img:hover{
+    transform: scale(1.1);
 }
 /* Responsive */
 @media (max-width:1200px){
