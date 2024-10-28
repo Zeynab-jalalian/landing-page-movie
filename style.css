@@ -321,11 +321,11 @@ ul{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 50px;
 }
 .box{
-  width: calc(25% - 30px);
-  height: 100%;
-  margin: 30px auto;
+ width: calc(20% - 10px);
+ margin-bottom: 20px;
 }
 .box img{
     object-fit: cover;
