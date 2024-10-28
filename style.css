@@ -17,7 +17,7 @@ ul{
 }
 .header{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: url('images/bb.jpg') no-repeat;
     background-size: cover;
     background-position:  center;
@@ -380,6 +380,10 @@ ul{
     }
 }
 @media (max-width:1000px){
+    .header-bottom{
+        margin-top: 100px;
+        margin-bottom: 10px;
+    }
     .header-main{
         margin: 0 10px;
     }
