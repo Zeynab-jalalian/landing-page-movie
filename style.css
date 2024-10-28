@@ -73,7 +73,7 @@ ul{
 .nav-logo{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:  center;
 }
 .header-main{
     width: 90%;
@@ -85,7 +85,7 @@ ul{
 }
 .header-main div{
     width: 50%;
-    margin: 0 10px;
+    margin:30px;
 }
 .header-main .h-m-right{
     display: flex;
