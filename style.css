@@ -618,6 +618,9 @@ ul{
     .h-m-right{
         margin-top: 100px;
     }
+    .boxes .box{
+        width: 100%;
+    }
 }
 @media (max-width:520px){
     .nav-options a {
